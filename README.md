@@ -9,7 +9,7 @@
 - Требования: User Stories, Acceptance Criteria, декомпозиция, MoSCoW  
 - Моделирование: BPMN, UML (Sequence / Activity / Use Case), ERD  
 - API: базовое понимание REST, структура запросов/ответов, коды ошибок  
-- Данные: SQL (JOIN, подзапросы), основы проектирования данных  
+- Данные: SQL (JOIN, подзапросы, оконные функции), основы проектирования данных  
 - Инструменты: GitHub, PlantUML, Draw.io, Miro, Jira, Confluence, Yandex DataLens  
 - Python: учебные скрипты для обработки данных  
 - Английский: **B1** (чтение документации, базовое рабочее общение)
