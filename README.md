@@ -44,6 +44,7 @@
 
 Отдельный учебный проект:
 - ARDD_Project — https://github.com/popoboboviz/ARDD_Project
+- Investfunds-local-trend — https://github.com/popoboboviz/investfunds-local-trend
 
 ### /yandex-datalens
 Материалы по визуализации и дашбордам (описание и ссылки — внутри папки).
