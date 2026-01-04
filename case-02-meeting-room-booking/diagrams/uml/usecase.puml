@@ -1,1 +1,32 @@
+@startuml
+left to right direction
+skinparam shadowing true
 
+title Use Case: Бронирование переговорки
+actor "Пользователь" as user
+actor "Сервис уведомлений (Email/Slack)" as email
+actor "Администратор офисных ресурсов" as adm
+
+rectangle "Система бронирования переговорок" {
+    usecase "Посмотреть доступные переговорки" as viewroom
+    usecase "Посмотреть мои брони" as check
+    usecase "Управлять переговорками" as manag
+    usecase "Проверить доступность" as checkdostup
+    usecase "Отправить уведомления" as deliver
+    usecase "Создать бронь" as creater
+    usecase "Отменить бронь" as cancel
+}
+
+user --> viewroom
+user --> check
+user --> creater
+user --> cancel
+
+creater -.> checkdostup: <<include>>
+creater -.> deliver: <<include>>
+cancel -.> deliver: <<include>>
+
+email <-- deliver
+adm --> manag
+
+@enduml
